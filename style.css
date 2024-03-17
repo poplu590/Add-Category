@@ -1,0 +1,51 @@
+body{
+    background-color: rgb(193, 222, 255);
+}
+
+
+.cat-container{
+    text-align: center;
+    width: 322px;
+    /* max-width: 20%; */
+    margin: auto;
+    padding: 50px 50px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 8px;
+    margin-top: 10%;
+}
+button{
+    padding: 10px 20px;
+    border: none;
+    color: white;
+    background-color: rgb(109, 109, 255);
+    cursor: pointer;
+    margin-bottom: 20px;
+    border-radius: 8px;
+
+}
+.cat-box{
+    position: relative;
+}
+.cat-box input{
+    max-width: 90%;
+    width: 220px;
+    padding: 12px 20px 12px 20px;
+    border: 1px solid rgba(102, 102, 245, 0.438);
+    border-radius: 8px;
+    outline-color: rgb(120, 134, 255);
+    color: rgb(59, 59, 59);
+    margin-bottom: 20px;
+}
+
+.cat-box .closebtn{
+    position: absolute;
+    right: -2px;
+    top: 9px;
+    color: rgb(108, 97, 255);
+    cursor: pointer;
+    font-size: 21px;
+}
+.cat-box .closebtn:hover{
+    color: rgb(74, 63, 228);
+}
+
